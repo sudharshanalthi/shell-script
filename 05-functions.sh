@@ -19,8 +19,10 @@ else
     echo "you are root user"
     fi 
 
-    Yum install Mysql -y
+    Yum install mysql -y
 
     VALIDATE
 
     Yum install git -y
+
+    VALIDATE
