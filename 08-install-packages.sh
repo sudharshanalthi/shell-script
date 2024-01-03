@@ -1,6 +1,9 @@
 #!/bin/bash
 
 ID=$(id -U)
+R="\e[31m"
+G="\e[32m"
+N="\e[0m"
 
 if [ $ID -ne 0 ]
 then
@@ -11,4 +14,4 @@ then
     fi # fi means reverse of if, indicating condition end
 
     echco " ALL arguments passed: $@"
-    
+
