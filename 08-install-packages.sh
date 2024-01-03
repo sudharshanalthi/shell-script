@@ -10,4 +10,5 @@ then
        echo "you are root user"
     fi # fi means reverse of if, indicating condition end
 
-    echco " ALL arguments passed: $@
+    echco " ALL arguments passed: $@"
+    
