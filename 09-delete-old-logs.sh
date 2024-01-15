@@ -7,7 +7,7 @@ G="\e[32m"
 Y="\e[33m"
 N="\e[0m"
 
-if [ ! -d $SOURCE_DIR] # ! denotes opposite
+if [ ! -d $SOURCE_DIR ] # ! denotes opposite
 then 
     echo -e "$R SOURCE directory: $SOURCE_DIR does not exists. $N"
     fi
