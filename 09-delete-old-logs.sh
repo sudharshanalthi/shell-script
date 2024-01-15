@@ -2,12 +2,12 @@
 
 SOURCE_DIR="/tmp/shellscript-logs"
 
-ID=$(id -u)
 R="\e[31m"
 G="\e[32m"
+Y="\e[33m"
 N="\e[0m"
 
-if[ ! -d $SOURCE_DIR] # ! denotes opposite
+if [ ! -d $SOURCE_DIR] # ! denotes opposite
 then 
     echo -e "$R SOURCE directory: $SOURCE_DIR does not exists. $N"
     fi
