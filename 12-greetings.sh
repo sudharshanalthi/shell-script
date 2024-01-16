@@ -5,7 +5,7 @@ WISHES=""
 
 USAGE(){
     echo "USAGE:: $(basename $0) -n <name> -w <wishes>"
-    echo "options::"
+    echo "Options::"
     echo " -n, Specify the name (mandatory)"
     echo " -w, Specify the wishes. ex, Good Morning"
     echo " -h, Display Help and exit"
